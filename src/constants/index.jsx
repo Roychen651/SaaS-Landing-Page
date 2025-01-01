@@ -2,23 +2,23 @@ export const features = [
   {
     id: "0",
     icon: "/images/feature-1.png",
-    caption: "Easy integration",
-    title: "Work smarter not harder",
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    caption: "Seamless Integration",
+    title: "Empower Your Workflow",
+    text: "Unlock your team's full potential with our seamless integration features. Automate routine tasks and channel your energy towards innovation and growth. Transform your workflow and experience efficiency like never before!",
     button: {
       icon: "/images/magictouch.svg",
-      title: "Watch the demo",
+      title: "Explore Integration",
     },
   },
   {
     id: "1",
     icon: "/images/feature-2.png",
-    caption: "Secure & trustworthy",
-    title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
+    caption: "Top-Tier Security",
+    title: "Protect Your Data",
+    text: "With leading-edge security measures, rest assured that your data is protected around the clock. Our robust security framework guards against threats and ensures your information remains secure and private.",
     button: {
       icon: "/images/docs.svg",
-      title: "Read the docs",
+      title: "Learn About Security",
     },
   },
 ];
@@ -27,130 +27,132 @@ export const details = [
   {
     id: "0",
     icon: "/images/detail-1.png",
-    title: "AI automated video editing",
+    title: "Smart Video Editing",
   },
   {
     id: "1",
     icon: "/images/detail-2.png",
-    title: "Collaborate with your team",
+    title: "Team Collaboration",
   },
   {
     id: "2",
     icon: "/images/detail-3.png",
-    title: "Ultra fast cloud-engine",
+    title: "Lightning-fast Rendering",
   },
   {
     id: "3",
     icon: "/images/detail-4.png",
-    title: "24 / 7 Customer support",
+    title: "24/7 Support",
   },
 ];
 
 export const faq = [
   {
     id: "0",
-    question: "How easy is it to setup Xora?",
+    question: "How simple is it to get started?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "It's incredibly easy! Start using our platform within minutes with our quick setup guide and user-friendly interface.",
   },
   {
     id: "1",
-    question: "Can I integrate Xora with other platforms?",
+    question: "Can I integrate your service with other tools?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Absolutely! Our platform is designed for versatility and can seamlessly integrate with many of the tools you already use.",
   },
   {
     id: "2",
-    question: "How often do you add new content?",
+    question: "What new features do you plan to release?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "We're constantly innovating and regularly release new features that help you stay ahead in your industry!",
   },
   {
     id: "3",
-    question: "What your refund policy?",
+    question: "What's your refund policy?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "We offer a no-hassle, 30-day money-back guarantee. If you're not satisfied, getting a refund is easy.",
   },
   {
     id: "4",
-    question: "Do you have corporate plans?",
+    question: "Do you offer plans for large enterprises?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, we have tailor-made solutions for large enterprises that are scalable and flexible.",
   },
   {
     id: "5",
-    question: "What happens when I’m out of storage?",
+    question: "What happens if I need more storage?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Upgrading your storage capacity is quick and easy. We provide various options to suit your needs.",
   },
   {
     id: "6",
-    question: "Can I upgrade my plan?",
+    question: "Can I upgrade my subscription plan?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Of course! Upgrading is simple and can be done at any time. You'll only pay the prorated difference.",
   },
   {
     id: "7",
-    question: "How do I invite my team?",
+    question: "How can I invite my team to the platform?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Our platform allows you to add team members effortlessly. Simply send an invite through the dashboard!",
   },
   {
     id: "8",
-    question: "Do you offer training for individuals and teams?",
+    question: "Is training provided for teams?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, we offer comprehensive training materials and live sessions to get your team up to speed quickly.",
   },
   {
     id: "9",
-    question: "I’m locked out of my account what do I do?",
+    question: "I’m locked out of my account, what do I do?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "No worries, just contact our 24/7 support team, and we'll help you regain access promptly!",
   },
 ];
 
 export const plans = [
   {
     id: "0",
-    title: "Core",
-    priceMonthly: 19,
-    priceYearly: 12,
-    caption: "Best for solo creators",
+    title: "Starter",
+    priceMonthly: 29,
+    priceYearly: 19,
+    caption: "Ideal for startups and individual users",
     features: [
-      "100MB Cloud storage",
-      "100+ prompt templates",
-      "5 projects",
-      "24/7 support",
+      "50GB Cloud storage",
+      "Access to basic features",
+      "Support via email",
+      "Up to 3 team accounts",
     ],
     icon: "/images/circle.svg",
     logo: "/images/plan-1.png",
   },
   {
     id: "1",
-    title: "Overdrive",
+    title: "Professional",
     priceMonthly: 79,
     priceYearly: 59,
-    caption: "Most popular plan",
+    caption: "Perfect for professional teams and businesses",
     features: [
+      "200GB Cloud storage",
       "All Starter features",
-      "1TB additional storage",
-      "Unlimited projects",
-      "Analytics",
+      "Priority support",
+      "Analytics and reporting",
+      "Unlimited team accounts",
     ],
     icon: "/images/triangle.svg",
     logo: "/images/plan-2.png",
   },
   {
     id: "2",
-    title: "Team",
-    priceMonthly: 39,
-    priceYearly: 29,
-    caption: "Exclusively for teams",
+    title: "Enterprise",
+    priceMonthly: 169,
+    priceYearly: 139,
+    caption: "Enterprise-grade solutions for global scalability",
     features: [
-      "All Overdrive features",
-      "10TB additional storage",
-      "50% off per member",
-      "Real-time collaboration",
+      "1TB Cloud storage",
+      "All Professional features",
+      "Dedicated support manager",
+      "API access and custom integrations",
+      "Advanced security features",
     ],
     icon: "/images/hexagon.svg",
     logo: "/images/plan-3.png",
@@ -161,50 +163,34 @@ export const testimonials = [
   {
     id: "0",
     name: "Jessica Saunders",
-    role: "Globalnomads",
+    role: "CMO, Globomantics",
     avatarUrl: "/images/testimonials/jessica-saunders.png",
     comment:
-      "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+      "This platform has revolutionized our digital workspace, increasing our productivity and collaboration.",
   },
   {
     id: "1",
     name: "Mark Erixon",
-    role: "Vid capital intl",
+    role: "Tech Director, Fintech Solutions",
     avatarUrl: "/images/testimonials/mark-erixon.png",
     comment:
-      "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
+      "Integrating this tool was a game-changer for our project management and reporting processes.",
   },
   {
     id: "2",
     name: "Melanie Hurst",
-    role: "Cyberleap",
+    role: "CEO, Quantum Innovations",
     avatarUrl: "/images/testimonials/melanie-hurst.png",
     comment:
-      "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
+      "A robust solution that scales effortlessly with our growing needs. The customer support is outstanding!",
   },
   {
     id: "3",
     name: "Alicia Barker",
-    role: "Cyberleap",
+    role: "Head of Operations, Creative Co.",
     avatarUrl: "/images/testimonials/alicia-barker.png",
     comment:
-      "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
-  },
-  {
-    id: "4",
-    name: "Becky Snider",
-    role: "Floclips",
-    avatarUrl: "/images/testimonials/becky-snider.png",
-    comment:
-      "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
-  },
-  {
-    id: "5",
-    name: "Jim Bradley",
-    role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/jim-bradley.png",
-    comment:
-      "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
+      "It's rare to find a platform that combines ease of use with powerful capabilities. Highly recommended!",
   },
 ];
 

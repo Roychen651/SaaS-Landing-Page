@@ -313,3 +313,16 @@
 
   /*  END of Footer*/
 }
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #848894, #96f0d5, #f78e8e);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #1E40AF, #9333EA);
+  border-radius: 6px;
+  
+}

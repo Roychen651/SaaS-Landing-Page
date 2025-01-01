@@ -29,7 +29,7 @@ const Header = () => {
       spy
       smooth
       activeClass="nav-active"
-      className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5"
+      className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 hover:scale-105 max-lg:hover:translate-x-2 max-lg:my-4 max-lg:h5"
     >
       {title}
     </LinkScroll>
@@ -45,7 +45,7 @@ const Header = () => {
       {/* Mobile logo display */}
       <div className="container flex h-14 items-center max-lg:px-5">
         <a className="lg:hidden flex-1 cursor-pointer z-2">
-          <img src="/images/logo.svg" width={115} height={55} alt="logo" />
+          <img src="/images/saasLogo.png" width={115} height={55} alt="logo" />
         </a>
 
         {/* Main navigation container */}
@@ -74,13 +74,13 @@ const Header = () => {
                     spy
                     smooth
                     className={clsx(
-                      "max-lg:hidden transition-transform duration-500 cursor-pointer"
+                      "max-lg:hidden transition-transform duration-500 cursor-pointer mt-10 hover:scale-105"
                     )}
                   >
                     <img
-                      src="/images/logo.svg"
-                      width={160}
-                      height={55}
+                      src="/images/saasLogo.png"
+                      width={120}
+                      height={40}
                       alt="logo"
                     />
                   </LinkScroll>
